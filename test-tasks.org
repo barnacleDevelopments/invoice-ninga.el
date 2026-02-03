@@ -1,0 +1,64 @@
+#+TITLE: Test Tasks for Invoice Ninga
+
+* TODO Website Redesign
+  :PROPERTIES:
+  :NUMBER: 001
+  :CLIENT: Acme Corp
+  :STATE: billable
+  :END:
+  :LOGBOOK:
+  CLOCK: [2024-01-15 Mon 09:00]--[2024-01-15 Mon 11:30] =>  2:30
+  CLOCK: [2024-01-16 Tue 14:00]--[2024-01-16 Tue 15:00] =>  1:00
+  :END:
+  Redesign the main landing page with new branding guidelines.
+  Includes responsive layout adjustments.
+
+* DONE API Integration
+  :PROPERTIES:
+  :NUMBER: 002
+  :CLIENT: Acme Corp
+  :STATE: completed
+  :END:
+  :LOGBOOK:
+  CLOCK: [2024-01-17 Wed 10:00]--[2024-01-17 Wed 12:00] =>  2:00
+  CLOCK: [2024-01-17 Wed 13:00]--[2024-01-17 Wed 14:30] =>  1:30
+  CLOCK: [2024-01-18 Thu 09:00]--[2024-01-18 Thu 11:00] =>  2:00
+  :END:
+  Integrate payment gateway API with the checkout system.
+
+* TODO Bug Fixes
+  :PROPERTIES:
+  :NUMBER: 003
+  :CLIENT: Beta Inc
+  :STATE: billable
+  :END:
+  :LOGBOOK:
+  CLOCK: [2024-01-19 Fri 08:00]--[2024-01-19 Fri 08:45] =>  0:45
+  :END:
+  Fix login timeout issues and session handling.
+
+* IN-PROGRESS Documentation Update
+  :PROPERTIES:
+  :NUMBER: 004
+  :CLIENT: Beta Inc
+  :STATE: non-billable
+  :END:
+  Update API documentation for v2.0 release.
+  No clock entries yet - work just started.
+
+* TODO Task with Special Characters
+  :PROPERTIES:
+  :NUMBER: 005
+  :CLIENT: "Quoted, Corp"
+  :STATE: billable
+  :END:
+  :LOGBOOK:
+  CLOCK: [2024-01-20 Sat 10:00]--[2024-01-20 Sat 11:00] =>  1:00
+  :END:
+  This description has "quotes" and, commas, to test CSV escaping.
+  Multiple lines too.
+
+* TODO Empty Properties Task
+  :PROPERTIES:
+  :END:
+  A task with minimal properties to test defaults.

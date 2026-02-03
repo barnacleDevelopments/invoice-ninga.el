@@ -1,0 +1,4 @@
+status,number,client,description,duration,state
+TODO,001,Acme Corp,"Redesign the main landing page with new branding guidelines.
+  Includes responsive layout adjustments.",210,billable
+DONE,002,Acme Corp,Integrate payment gateway API with the checkout system.,330,completed
